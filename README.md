@@ -11,9 +11,11 @@ In this workshop, you'll primarily use your own private repository to work on.
 
 To set up your repository, go to https://github.com/github/haikus-for-codespaces and click ![Use this Template](images/use-template.png)
 
-Make sure you add the template as a repository **in this organization** by choosing `devops-on-github` as the owner. Give it any name, but remember this will be the repository you use for the whole workshop. Make sure you'll recognise it as your own!
+Make sure you add the template as a repository **in this organization** by choosing `devops-on-github` as the owner. 
 
 ![devops-on-github should be the owner](images/in-org.png)
+
+Give it any name, but remember this will be the repository you use for the whole workshop. Make sure you'll recognise it as your own. There's no need to include every branch.
 
 
 # Content: 
