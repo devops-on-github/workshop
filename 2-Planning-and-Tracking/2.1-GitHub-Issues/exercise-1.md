@@ -18,6 +18,7 @@ At this point, you have an issue that represents this piece of work. But there a
 2. Click the link to the new issue and see that it's being tracked by Issue #1. Click the link to go back to its parent.
 3. Leave a new comment about this issue at the bottom. Use the `@` character to reference someone (maybe your proctor), and the `#` character to reference another issue.
 
+![The result of exercise 1](../../images/new-issue.png)
 
 ## Resources:
 - [GitHub-flavoured Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
