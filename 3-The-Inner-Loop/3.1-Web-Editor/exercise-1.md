@@ -32,7 +32,7 @@ When you click this button, Two things will happen:
 
  At this point, we've made a change, and we've committed it to our branch. The next thing we need to do is make a pull request.
 
- 14. In the same Source Control window, click the pull request icon to the left of the ✓ (it looks like a `+` with an arrow pointing at a line with circles on the end).
+ 14. In the same Source Control window, click the pull request icon ![pull request icon](../../images/web-editor-pr-icon.png) to the left of the ✓.
  15. Add an appropriate title and description.
 
  _**Important:** Make sure you're committing from the branch you just created in your own repository to the main branch in that repository. While it's almost certainly going to be correct in this case, it's good practice to check. If you're working on a fork, the defaults may not be what you want!_

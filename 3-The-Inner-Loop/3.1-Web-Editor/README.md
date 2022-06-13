@@ -18,16 +18,10 @@ In this section, we're going to run through some exercises to show how you can a
 
 [▶️ Make a simple change](exercise-1.md)
 
-In this exercise, we'll make a simple change to a file in our repository. We'll also show how you can link your work to an issue using built-in extensions.
+In this exercise, we'll make a simple change to a file in our repository. We'll also show how you can link your work to an issue using built-in extensions and work with pull requests.
 
 ### 👩‍💻 Exercise 2
 
-[▶️ Approve a pull request](exercise-2.md)
-
-In this exercise, we're going to open a pull request and approve it. We'll see how the web-based editor is context-aware and gives a great PR review experience.
-
-### 👩‍💻 Exercise 3
-
-[▶️ Submit a pull request](exercise-3.md)
+[▶️ Submit a pull request to an external repository](exercise-2.md)
 
 In this exercise, we'll open the web-editor for a repository we _don't_ own and see what the experience is like for contributing to other projects.
