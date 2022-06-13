@@ -20,7 +20,7 @@ The [GitHub.dev web-based editor](https://docs.github.com/en/codespaces/the-gith
 
 ## 👩‍💻 Codespaces
 
-[GitHub Codespaces]() takes this idea further, giving you Visual Studio Code backed by high performance VMs that start in seconds. Unlike the web-based editor, Codespaces are backed by VMs so you can compile and debug as if you were on a local machine.
+[GitHub Codespaces](https://github.com/features/codespaces) takes this idea further, giving you Visual Studio Code backed by high performance VMs that start in seconds. Unlike the web-based editor, Codespaces are backed by VMs so you can compile and debug as if you were on a local machine.
 
 The advantages of using Codespaces over local development are many. You can standardize on a set of dependencies for a project, onboard a new developer in seconds rather than days, and spin up and tear down context-aware Codespaces at a moment's notice.
 
