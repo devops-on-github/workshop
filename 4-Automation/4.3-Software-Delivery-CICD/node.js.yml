@@ -1,0 +1,53 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test --if-present
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: haiku-app
+        path: .
+
+  staging:
+    needs: build
+    environment: Staging
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: haiku-app
+        path: haiku-app
+    - run: ls ./haiku-app
+
+  production:
+    needs: staging
+    environment: Production
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: haiku-app
+        path: haiku-app
+    - run: ls ./haiku-app
