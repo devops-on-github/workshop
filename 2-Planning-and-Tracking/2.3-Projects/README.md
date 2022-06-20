@@ -30,7 +30,7 @@ In this exercise, you'll create a new view for the current sprint.
 
 ### 👩‍💻 Exercise 3
 
-[▶️ Create a personal backlog](exercise-2.md)
+[▶️ Create a personal backlog](exercise-3.md)
 
 In this exercise, you'll create a new view for your personal work. While we'll make suggestions for how it should look, this is your view so customize it in a way that works for you!
 
