@@ -2,7 +2,7 @@
 
 While Issues are great for individual items, planning your work is crucial to working effectively. This means visualising of groups of issues, pull requests, or notes (also known as cards) in an interactive way that makes sense for your team.
 
-Often, teams use external tools (including sticky notes on whiteboards) to track their work, or they'll fall back to simple spreadsheets. Project Tables and Boards are GitHub's way of giving you visibilty over the work you care about.
+Often, teams use external tools (including sticky notes on whiteboards) to track their work, or they'll fall back to simple spreadsheets. [Project Tables and Boards](https://github.com/features/issues) are GitHub's way of giving you visibilty over the work you care about.
 
 Built like a spreadsheet, Project Tables give you a live canvas to filter, sort, and group issues and pull requests. They're extremely customizable and you can tailor them to your needs with custom fields.
 
