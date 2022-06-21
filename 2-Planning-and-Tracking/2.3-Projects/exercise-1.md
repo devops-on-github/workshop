@@ -21,7 +21,7 @@ _Note: You can use the keyboard here. After the first one, you may only need to 
 
 6. Click on an issue title. More details should show on a sidebar.
 7. Click on the `+` to the right of the last column and add the `Labels` field.
-8. Create new custom fields for `Estimate` (Sumber) and `Priority` (Single select: Low, Medium and High)
+8. Create new custom fields for `Estimate` (Number) and `Priority` (Single select: Low, Medium and High)
 9. Set some of the missing values for the issues on your board. Experiment with using the keyboard as well as the mouse!
 
 10. Sort by priority by clicking the 🔻 arrow in the Priority column header (you'll see it when you hover)
