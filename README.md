@@ -1,25 +1,31 @@
 # End to End DevOps with GitHub
 
-Welcome to the **End to End DevOps with GitHub** workshop!
+Welcome to the **End-to-End DevOps with GitHub** workshop!
 
 This repository is your source for all the workshop materials. You'll find topics in folders and markdown files in each folder with each piece of learning material and exercise.
 
 This repository also has [Discussions](https://github.com/devops-on-github/workshop/discussions) enabled for Q&A and conversation as we go.
 
 # Getting Started:
-In this workshop, you'll primarily use your own private repository to work on.
 
-To set up your repository, go to https://github.com/github/haikus-for-codespaces and click ![Use this Template](images/use-template.png)
+Let's get started! In this workshop, we will use a template as a baseline.
 
-Make sure you add the template as a repository **in this organization** by choosing `devops-on-github` as the owner. 
+1. Navigate to this repo and click on `Use this template` as a baseline for your new repository. ![Use this Template](images/use-template.png)
 
+2. Select this workshop Org `devops-on-github` as the owner of your new repository.
 ![devops-on-github should be the owner](images/in-org.png)
 
-Give it any name, but remember this will be the repository you use for the whole workshop. Make sure you'll recognise it as your own. There's no need to include every branch.
+3. Choose a name and a description for your new repository that it's easy to remember as your own.
+There's no need to include every branch.
 
+4. You're all set, follow the instructions during the workshop.
 
-# Content: 
-## Day 1:
+## Contents
+
+We will start covering the [features and capabilities](https://github.com/features) of the GitHub platform on Day 1. Then we will jump into the automation process with Actions and security posture of your projects in the Cloud with GitHub Advanced security on Day 2.
+
+### Day 1
+
 - [Intro to DevOps](1-Intro-to-DevOps/)
 - [Planning and Tracking](2-Planning-and-Tracking/)
   - [Issues](2-Planning-and-Tracking/2.1-GitHub-Issues/)
@@ -30,7 +36,8 @@ Give it any name, but remember this will be the repository you use for the whole
   - [Codespaces](3-The-Inner-Loop/3.2-Codespaces/)
 - Wrap up
 
-## Day 2:
+### Day 2
+
 - [Automation](4-Automation/)
   - [Actions Basics](4-Automation/4.1-Actions-Basics/)
   - [Actions Advanced](4-Automation/4.2-Actions-Advanced/)
