@@ -1,0 +1,34 @@
+
+name: advanced actions test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  output_runner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output the runner context
+        run: echo '${{ toJSON(runner) }}'
+
+  set_output_variables:
+    runs-on: ubuntu-latest
+    outputs:
+      triggering_user: ${{ steps.getuser.outputs.triggeringuser }}
+    steps:
+      - id: getuser
+        name: Get the triggering user
+        run: echo "::set-output name=triggeringuser::${{ github.triggering_actor }}"
+
+  show_rerun_user:
+    needs: set_output_variables
+    if: ${{ github.run_attempt > 1 }} 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output triggering user
+        run: echo "Rerun number ${{ github.run_attempt }} triggered by ${{ needs.set_output_variables.outputs.triggering_user }}" > artifact.txt
+      - name: upload artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: rerun
+          path: artifact.txt

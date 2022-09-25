@@ -2,6 +2,8 @@
 
 _Note: This is a self-driven exercise, but don't be afraid to ask for help. The documentation for Actions is comprehensive, but it can sometimes be hard to find exactly what you need._
 
+_Further note: This exercise is deliberately tricky (the author needed about 8 attempts!) I'd encourage you to try it yourself, but if you get stuck or just want the answer, the completed workflow is [here](advanced-actions.yml)_
+
 1. Create a new workflow for your repository
 2. Set the workflow to only run on `workflow_dispatch` ([learn about it here](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch))
 3. This workflow should have 3 jobs:
@@ -13,20 +15,17 @@ Job 1 should echo a json output of the `runner` context.
 
 This is an extremely useful technique for debugging!
 
-## Job 2 - output a number: 
-Job 2 should set an output variable to a random number between 1 and 10. 
+## Job 2 - output the GitHub username of the person who triggered the run: 
+Job 2 should set an output variable to the GitHub username of the person who triggered the run
 
-In bash, you can get a random number with:
-```bash
-($RANDOM % 10 + 1)
-```
+You can get this detail from [the `github` context](https://docs.github.com/en/actions/learn-github-actions/contexts#github-context) - `github.triggering_actor`.
 
 [See docs on output variables](https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs) for help.
 
 ## Job 3 - conditional running and artifacts:
-Job 3 should only run if that random number is greater than 5.
+Job 3 should only run if the run attempt is greater than 1.
 
-If it runs, it should write that random number to a file and upload it as an artifact.
+If it runs, it should write the username of the person who triggered the run to a file and upload it as an artifact.
 
 You can write text to a file in bash using:
 

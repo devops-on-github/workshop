@@ -10,7 +10,7 @@ This repository also has [Discussions](https://github.com/devops-on-github/works
 
 Let's get started! In this workshop, we will use a template as a baseline.
 
-1. Navigate to this repo and click on `Use this template` as a baseline for your new repository. ![Use this Template](images/use-template.png)
+1. Navigate to [this repo](https://github.com/github/haikus-for-codespaces) and click on `Use this template` as a baseline for your new repository. ![Use this Template](images/use-template.png)
 
 2. Select this workshop Org `devops-on-github` as the owner of your new repository.
 ![devops-on-github should be the owner](images/in-org.png)
