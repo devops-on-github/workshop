@@ -46,4 +46,4 @@ At the moment, there are limited workflows you can enable, but soon you'll be ab
 Aside from these workflows, you can use GitHub Actions to automate working with projects. We'll look at this in more detail when we cover Actions.
 
 ### Insights
-Insights for projects is currently in private beta. You can use insights to view and customize charts that use the items added to your project as their source data. The default "Burn up" chart shows item status over time, allowing you to visualize progress and spot patterns over time.
+Insights for projects is currently in public beta. You can use insights to view and customize charts that use the items added to your project as their source data. The default "Burn up" chart shows item status over time, allowing you to visualize progress and spot patterns over time.
