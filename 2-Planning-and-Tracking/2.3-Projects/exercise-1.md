@@ -19,6 +19,8 @@ _This is important: Projects belong to the organisation rather than the individu
 
 _Note: You can use the keyboard here. After the first one, you may only need to hit `Enter` a few times to add the rest!_
 
+You can also click the `+` button and select `Add item from repository`. Click to select and add all the issues you previously created.
+
 6. Click on an issue title. More details should show on a sidebar.
 7. Click on the `+` to the right of the last column and add the `Labels` field.
 8. Create new custom fields for `Estimate` (Number) and `Priority` (Single select: Low, Medium and High)
