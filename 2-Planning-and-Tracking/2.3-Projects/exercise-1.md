@@ -11,7 +11,7 @@ _This is important: Projects belong to the organisation rather than the individu
 
 ![create a project at the org level](../../images/go-to-org-create-project.png)
 
-4. Click `Create project`, leaving the template as the default `Table` view
+4. Click `New project`, leaving the template as the default `Table` view
 
 ![Create a new table](../../images/project-default-template.png)
 
