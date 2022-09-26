@@ -5,7 +5,7 @@ In this exercise, we'll create a project for your repository and show how you ca
 1. In your repository, click on the Projects tab
 2. Click on `Add Project` and note that you're prompted to create a new project at the organization level
 
-_This is important: Projects belong to the organisation rather than the individual repository. This allows you to pull in issues from a number of repositories."
+_This is important: Projects belong to the organisation rather than the individual repository. This allows you to pull in issues from a number of repositories."_
 
 3. Click the link to create a project for the organisation
 
