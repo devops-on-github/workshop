@@ -3,7 +3,7 @@
 _Note: this exercise is a guided exercise mainly so we can examine what you'll see at various stages and give everyone an opportunity to ask questions. There's a lot to GitHub Actions and we want to make sure everyone is on the same page as we go!_
 
 1. In your repository, navigate to the `Actions` tab
-2. Click on `set up a workflow yourself` or the `New workflow`button
+2. Click on `New workflow` button or click in the search bar to find a template to get started.
 
 _Note: If you completed all the exercises from yesterday, you should see some Codespaces prebuilds in the list of workflow runs. Codespaces prebuilds do use GitHub Actions, but they're managed by GitHub and won't appear in the `.github/workflows` folder of your repository_
 
