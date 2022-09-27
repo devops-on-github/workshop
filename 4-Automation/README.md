@@ -8,7 +8,7 @@ GitHub's solution for automation is [GitHub Actions](https://github.com/features
 
 In this section we're going to explore GitHub Actions in depth. We'll look at how to use it in terms of the syntax and features, but more importantly, we'll look at how you _should_ use it for CI/CD and non-CI/CD automations.
 
-## 🛖 Actions Basics
+## ⛺ Actions Basics
 GitHub Actions is extremely customizable, but there are fundamentals that are important to know. From the structure of a workflow definition to managing secrets, to understanding the way runners work, these fundamentals are where we'll start.
 
 [➡️ Go to Actions Basics Content](4.1-Actions-Basics/)
