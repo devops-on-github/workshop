@@ -3,12 +3,12 @@
 _Note: this exercise is a guided exercise mainly so we can examine what you'll see at various stages and give everyone an opportunity to ask questions. There's a lot to GitHub Actions and we want to make sure everyone is on the same page as we go!_
 
 1. In your repository, navigate to the `Actions` tab
-2. Click on `New workflow` button or click in the search bar to find a template to get started.
+2. Click on `New workflow` button. If you don't have this button, click in the search bar and head to the next step to find a workflow to get started.
 
 _Note: If you completed all the exercises from yesterday, you should see some Codespaces prebuilds in the list of workflow runs. Codespaces prebuilds do use GitHub Actions, but they're managed by GitHub and won't appear in the `.github/workflows` folder of your repository_
 
 3. On the next page, scroll through the templates to get an idea of what's possible. You'll note that there are suggestions at the top based on the code that's in your repository.
-4. Locate the `Node.js` template and click `Configure`
+4. Locate the `Node.js` template and click `Configure`. You can also click in the search bar and type "Node" to find the Node.js template.
 
 ![Node.js Actions template](../../images/actions-node-template.png)
 
