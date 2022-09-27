@@ -34,7 +34,7 @@ Code scanning is configured and runs using GitHub Actions. That means you can co
 
 If your project communicates with an external service, you might use a token or private key for authentication. Tokens and private keys are examples of secrets that a service provider can issue. If you check a secret into a repository, anyone who has read access to the repository can use the secret to access the external service with your privileges. We recommend that you store secrets in a dedicated, secure location outside of the repository for your project.
 
-S[Secret scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning) will scan your entire Git history on all branches present in your GitHub repository for secrets.
+[Secret scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning) will scan your entire Git history on all branches present in your GitHub repository for secrets.
 
 For public repositories, secret scanning looks for strings that match patterns that were provided by secret scanning partners are reported directly to the relevant partner. That may allow the partner to invalidate the token immediately which can be incredibly helpful!
 
