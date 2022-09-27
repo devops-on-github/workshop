@@ -4,9 +4,9 @@ Often when people talk about DevOps, they're talking about CI/CD - Continuous In
 
 As we've discussed, DevOps is much more than just CI/CD, but effective automation is an important part of successful DevOps - arguably the most important (technical) part.
 
-GitHub's solution for automation is [GitHub Actions](https://github.com/features/actions), and it's an extremely flexible and powerful tool, going far beyond simple CI/CD. GitHub Actions makes it easy to automate all your software workflows. You can build, test, and deploy your code right from GitHub, but you can also make code reviews, branch management, and issue triaging work the way you want.
+GitHub's solution for automation is [GitHub Actions](https://github.com/features/actions). It's an extremely flexible and powerful tool, going far beyond simple CI/CD. GitHub Actions makes it easy to automate all your software workflows. You can build, test, and deploy your code right from GitHub, but you can also make code reviews, branch management, and issue triaging work the way you want.
 
-In this section we're going to explore GitHub Actions in depth. We'll look at how to use it in terms of the syntax and features, but more importantly we'll look at how you _should_ use it for CI/CD and non-CI/CD automations.
+In this section we're going to explore GitHub Actions in depth. We'll look at how to use it in terms of the syntax and features, but more importantly, we'll look at how you _should_ use it for CI/CD and non-CI/CD automations.
 
 ## 🛖 Actions Basics
 GitHub Actions is extremely customizable, but there are fundamentals that are important to know. From the structure of a workflow definition to managing secrets, to understanding the way runners work, these fundamentals are where we'll start.
